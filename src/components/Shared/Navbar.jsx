@@ -1,13 +1,26 @@
 
 "use client";
-import React, { useEffect } from 'react';
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Navbar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const navLinks = <>
         <li><Link href="">Home</Link></li>
@@ -21,7 +34,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <div className="navbar bg-transparent fixed z-50">
+        <div className={`navbar bg-transparent fixed z-50 ${isScrolled ? 'bg-white text-black' : 'bg-transparent text-white'}`}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,11 +58,17 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="flex text-xl mt-1 md:mt-0">
-                    <Image src="/b_icon.png" width="4000" height="1000" alt="" className='h-16 w-44' />
+                    {
+                        !isScrolled &&
+                        <Image src="/fimage.png" width="4000" height="1000" alt="" className='ml-4 h-16 w-40' />
+                    }
+                    {isScrolled &&
+                        <Image src="/b_icon.png" width="4000" height="1000" alt="" className='h-16 w-44' />
+                    }
                 </a>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-lg">
                     {navLinks}
                 </ul>
             </div>
