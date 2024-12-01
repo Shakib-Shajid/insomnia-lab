@@ -24,7 +24,7 @@ const Banner = () => {
 
     return (
         <div data-aos="fade-down">
-            <section className={`pt-40 h-screen relative overflow-hidden ${isScrolled ? "text-[#333333]" : "text-white"}`} >
+            <section className={`pt-40 h-[600px] lg:h-screen relative overflow-hidden ${isScrolled ? "text-[#333333]" : "text-white"}`} >
                 {/* Background gradient */}
                 {
                     !isScrolled ? <div className="absolute inset-0 bg-fixed bg-center bg-gradient-to-r from-[#4a00e0] to-[#8e2de2]"></div> :
@@ -58,7 +58,7 @@ const Banner = () => {
                     </div>
 
                     {/* Text - Positioned lower and slightly smaller than the image */}
-                    <div>
+                    <div className='md:w-[80%] mx-auto'>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Redefining Digital Native Brands</h1>
                         <p className="text-lg md:text-xl lg:text-2xl mb-6 text-center">Where Innovation Meets Investment.</p>
                         <Link href="#"><button className='btn bg-[#4a00e0] hover:bg-[#4a00e0] text-white border-none rounded-full btn-lg text-lg'>Explore Opportunities</button></Link>
