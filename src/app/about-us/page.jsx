@@ -43,9 +43,9 @@ const page = () => {
             </section>
 
             {/* Mission section */}
-            <section className='max-w-7xl mx-auto py-10 text-[#333333]' data-aos="zoom-in">
-                <h3 className='font-bold text-3xl md:text-4xl text-center'>Our Mission</h3>
-                <div className='w-[80%] mx-auto'>
+            <section className='max-w-7xl mx-auto my-10 lg:my-20 text-[#333333]' data-aos="zoom-in">
+                <h3 className='font-bold text-3xl md:text-4xl text-center text-blue-600'>Our Mission</h3>
+                <div className='w-[80%] mx-auto mt-10'>
                     <p className='text-base md:text-lg max-w-5xl mx-auto text-justify'>Insomnia Lab empowers bold brands to thrive by blending innovation, strategy, and investment. We aim to shape the future of fashion and lifestyle with visionary entrepreneurs.</p>
                 </div>
                 {/* </div> */}
@@ -53,8 +53,8 @@ const page = () => {
             </section>
 
             {/* value section */}
-            <section className="py-12 bg-white">
-                <h2 className="text-center text-gray-800 font-bold text-3xl md:text-4xl">Our Values</h2>
+            <section className="my-10 lg:my-20 bg-white">
+                <h2 className="text-center font-bold text-3xl md:text-4xl text-blue-600">Our Values</h2>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-16 w-[80%] md:w-[100%] lg:w-[80%] mx-auto">
                     {/* 1st */}
                     <div className="flex items-center  gap-4 bg-gray-50 p-4 rounded-lg border border-blue-600 shadow-md">
@@ -92,10 +92,10 @@ const page = () => {
             </section>
 
             {/* team */}
-            <section>
-                <h2 className="text-center text-gray-800 font-bold text-3xl md:text-4xl">Meet Our Team</h2>
+            <section className='my-10 lg:my-20'>
+                <h2 className="text-center text-blue-600 font-bold text-3xl md:text-4xl">Meet Our Team</h2>
 
-                <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-5 my-10">
+                <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-5 my-10 lg:my-16">
                     <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                         <figure className="px-10 pt-10">
                             <Image
