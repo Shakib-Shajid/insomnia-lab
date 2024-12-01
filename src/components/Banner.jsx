@@ -10,14 +10,20 @@ const Banner = () => {
             <section className="pt-20 h-screen text-white relative overflow-hidden">
                 {/* Background gradient */}
                 <div className="absolute inset-0 bg-fixed bg-cover bg-center bg-gradient-to-r from-[#4a00e0] to-[#8e2de2]"></div>
-     
+
                 {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
 
                 {/* Content container */}
                 <div className="relative h-[80%] flex flex-col justify-center items-center text-center px-4 space-y-6">
                     {/* Logo - Larger than text */}
                     <div className="pb-10">
-                        <Image src="/fimage.png" width="4000" height="1000" alt="" className="w-52 h-24 md:w-64 md:h-28 lg:w-56 lg:h-28 pt-2" />
+                        <Image
+                            src="/fimage.png"
+                            width="4000"
+                            height="1000"
+                            alt=""
+                            className="w-40 h-20 md:w-52 md:h-24 lg:w-64 lg:h-28"
+                        />
                     </div>
 
                     {/* Text - Positioned lower and slightly smaller than the image */}
@@ -28,7 +34,7 @@ const Banner = () => {
                     </div>
                 </div>
             </section>
-            
+
         </div>
     );
 };

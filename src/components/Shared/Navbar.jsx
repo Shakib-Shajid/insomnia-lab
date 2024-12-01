@@ -23,11 +23,11 @@ const Navbar = () => {
     }, []);
 
     const navLinks = <>
-        <li><Link href="">Home</Link></li>
-        <li><Link href="">About</Link></li>
-        <li><Link href="">Our Brands</Link></li>
-        <li><Link href="">For Businesses</Link></li>
-        <li><Link href="">Contact</Link></li>
+        <li className="hover:text-[#4a00e0]"><Link href="">Home</Link></li>
+        <li className="hover:text-[#4a00e0]"><Link href="">About</Link></li>
+        <li className="hover:text-[#4a00e0]"><Link href="">Our Brands</Link></li>
+        <li className="hover:text-[#4a00e0]"><Link href="">For Businesses</Link></li>
+        <li className="hover:text-[#4a00e0]"><Link href="">Contact</Link></li>
     </>
     useEffect(() => {
         AOS.init();
@@ -57,7 +57,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="flex text-xl mt-1 md:mt-0">
+                <Link href="/" className="flex text-xl mt-1 md:mt-0">
                     {
                         !isScrolled &&
                         <Image src="/fimage.png" width="4000" height="1000" alt="" className='ml-4 h-16 w-40' />
@@ -65,10 +65,10 @@ const Navbar = () => {
                     {isScrolled &&
                         <Image src="/b_icon.png" width="4000" height="1000" alt="" className='h-16 w-44' />
                     }
-                </a>
+                </Link>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-lg">
+                <ul className="menu menu-horizontal px-1 text-base">
                     {navLinks}
                 </ul>
             </div>
@@ -77,3 +77,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
