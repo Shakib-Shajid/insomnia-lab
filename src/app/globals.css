@@ -29,3 +29,31 @@ body {
   background-color: white;
   color: black;
 }
+
+/* animation for arrow button */
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+    /* Adjust this value for the bounce height */
+  }
+
+  60% {
+    transform: translateY(-5px);
+    /* Adjust this value for the bounce height */
+  }
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+  /* 2 seconds duration, infinite repeat */
+}
+/* ......................... */

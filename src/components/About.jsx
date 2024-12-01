@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='max-w-7xl mx-auto my-10 lg:my-20' data-aos="zoom-in">
+        <div className='max-w-7xl mx-auto' data-aos="zoom-in">
             <div className='text-center my-5'>
                 <h3 className='text-blue-600 font-bold text-xl'>Who We Are</h3>
                 <p className='text-lg max-w-5xl mx-auto'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam odit voluptatibus tempore inventore esse iure exercitationem blanditiis in saepe ab!</p>

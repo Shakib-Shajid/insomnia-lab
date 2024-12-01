@@ -4,7 +4,7 @@ import React from 'react';
 
 const Brand = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-10 lg:mb-20' data-aos="zoom-in">
+        <div className='max-w-7xl mx-auto my-10 lg:my-20' data-aos="zoom-in">
             <div className='text-center my-5'>
                 <h3 className='text-blue-600 font-bold text-xl'>Our Brand</h3>
             </div>
