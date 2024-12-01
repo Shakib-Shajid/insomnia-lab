@@ -23,11 +23,11 @@ const Navbar = () => {
     }, []);
 
     const navLinks = <>
-        <li className="hover:text-[#4a00e0]"><Link href="">Home</Link></li>
-        <li className="hover:text-[#4a00e0]"><Link href="">About</Link></li>
-        <li className="hover:text-[#4a00e0]"><Link href="">Our Brands</Link></li>
-        <li className="hover:text-[#4a00e0]"><Link href="">For Businesses</Link></li>
-        <li className="hover:text-[#4a00e0]"><Link href="">Contact</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="">Home</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="">About</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="">Our Brands</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="">For Businesses</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="">Contact</Link></li>
     </>
     useEffect(() => {
         AOS.init();
