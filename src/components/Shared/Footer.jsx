@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className='bg-[#121212] text-white'>
+        <div className='bg-[#121212] text-white text-sm'>
             <footer className="footer p-10">
                 <aside>
                     <Link href="/"><Image src="/fimage.png" width="200" height="200" alt="" /></Link>
@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                 </nav>
             </footer>
-            <p className='text-center text-sm'>© 2024 Insomnia Lab. All rights reserved.</p>
+            <p className='text-center'>© 2024 Insomnia Lab. All rights reserved.</p>
         </div>
     );
 };
