@@ -87,6 +87,75 @@ const page = () => {
                     </div>
                 </div>
             </section>
+
+            <section className='max-w-7xl mx-auto py-10 pb-20 text-[#333333] bg-[#f7f7f7] rounded-3xl' data-aos="zoom-in">
+                {/* Section Title */}
+                <div className='text-center my-5 w-[80%] mx-auto'>
+                    <h3 className='text-blue-600 font-bold text-xl'>What Our Startups Say</h3>
+                    <p className='text-lg max-w-5xl mx-auto py-3'>
+                        Hear from the entrepreneurs who have partnered with Insomnia Lab.
+                    </p>
+                </div>
+
+                {/* Testimonial Cards */}
+                <div className="w-[90%] mx-auto flex flex-col md:flex-row flex-wrap gap-10 lg:gap-5">
+                    {/* Testimonial 1 */}
+                    <div className="card bg-white w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-left">
+                        <figure>
+                            <Image
+                                src="/150.svg"
+                                width="150"
+                                height="150"
+                                alt="Testimonial Photo"
+                                className="rounded-full mb-4"
+                            />
+                        </figure>
+                        <div className="text-center">
+                            <h4 className="font-semibold text-lg text-[#333333]">Jane Doe</h4>
+                            <p className="text-sm text-[#555555] italic mb-4">CEO of XYZ</p>
+                            <p className="text-sm text-[#555555]">"Working with Insomnia Lab has been transformative."</p>
+                        </div>
+                    </div>
+
+                    {/* Testimonial 2 */}
+                    <div className="card bg-white w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-up">
+                        <figure>
+                            <Image
+                                src="/150.svg"
+                                width="150"
+                                height="150"
+                                alt="Testimonial Photo"
+                                className="rounded-full mb-4"
+                            />
+                        </figure>
+                        <div className="text-center">
+                            <h4 className="font-semibold text-lg text-[#333333]">John Smith</h4>
+                            <p className="text-sm text-[#555555] italic mb-4">Founder of ABC</p>
+                            <p className="text-sm text-[#555555]">"The guidance and connections have been invaluable."</p>
+                        </div>
+                    </div>
+
+                    {/* Testimonial 3 */}
+                    <div className="card bg-white w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-right">
+                        <figure>
+                            <Image
+                                src="/150.svg"
+                                width="150"
+                                height="150"
+                                alt="Testimonial Photo"
+                                className="rounded-full mb-4"
+                            />
+                        </figure>
+                        <div className="text-center">
+                            <h4 className="font-semibold text-lg text-[#333333]">Emily Taylor</h4>
+                            <p className="text-sm text-[#555555] italic mb-4">CTO of StartUpCo</p>
+                            <p className="text-sm text-[#555555]">"Insomnia Lab helped us scale faster than we imagined."</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
         </div>
     );
 };
