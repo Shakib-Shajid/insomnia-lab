@@ -1,4 +1,8 @@
 import React from 'react';
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
+
 
 const page = () => {
     return (
@@ -75,9 +79,11 @@ const page = () => {
                             <span className="text-purple-700 text-3xl">
                                 <i className="fab fa-linkedin"></i>
                             </span>
-                            <a href="#" className="text-gray-600 hover:underline">
-                                LinkedIn
-                            </a>
+                            <div className='flex gap-5'>
+                                <FaLinkedin className='text-2xl hover:text-purple-800' />
+                                <FaInstagram className='text-2xl hover:text-purple-800' />
+                                <BsTwitterX className='text-2xl hover:text-purple-800' />
+                            </div>
                         </div>
                     </div>
                 </div>
