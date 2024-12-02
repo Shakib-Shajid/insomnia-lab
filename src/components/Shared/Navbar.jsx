@@ -27,7 +27,7 @@ const Navbar = () => {
         <li className="hover:text-[#4a00e0] font-bold"><Link href="/about-us">About</Link></li>
         <li className="hover:text-[#4a00e0] font-bold"><Link href="/our-brands">Our Brands</Link></li>
         <li className="hover:text-[#4a00e0] font-bold"><Link href="/for-business">For Businesses</Link></li>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="">Contact</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="/contact">Contact</Link></li>
     </>
     useEffect(() => {
         AOS.init();

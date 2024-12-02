@@ -8,7 +8,7 @@ const page = () => {
             {/* Hero Section */}
             <section className="h-[600px] lg:h-screen relative overflow-hidden text-white flex flex-col justify-center items-center px-4 text-center">
                 {/* Background Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-r from-[#4a00e0] to-[#0000FF]"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-[#8e2de2] to-[#4a00e0]"></div>
 
                 {/* Content */}
                 <div className="relative z-10 space-y-6 ">
