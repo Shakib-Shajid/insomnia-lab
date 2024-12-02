@@ -25,7 +25,7 @@ const Navbar = () => {
     const navLinks = <>
         <li className="hover:text-[#4a00e0] font-bold"><Link href="/">Home</Link></li>
         <li className="hover:text-[#4a00e0] font-bold"><Link href="/about-us">About</Link></li>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="">Our Brands</Link></li>
+        <li className="hover:text-[#4a00e0] font-bold"><Link href="/our-brands">Our Brands</Link></li>
         <li className="hover:text-[#4a00e0] font-bold"><Link href="">For Businesses</Link></li>
         <li className="hover:text-[#4a00e0] font-bold"><Link href="">Contact</Link></li>
     </>
