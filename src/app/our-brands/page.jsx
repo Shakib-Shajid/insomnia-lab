@@ -34,7 +34,7 @@ const page = () => {
                 </div>
             </section>
 
-            <section className="py-20 px-4 text-center w-[80%] mx-auto">
+            <section className="py-10 px-4 text-center w-[80%] mx-auto my-10 lg:my-20">
                 {/* Title */}
                 <h2 className="text-2xl md:text-4xl font-bold text-[#333333] mb-6">
                     How We Help Startups
@@ -88,7 +88,8 @@ const page = () => {
                 </div>
             </section>
 
-            <section className='max-w-7xl mx-auto py-10 pb-20 text-[#333333] bg-[#f7f7f7] rounded-3xl' data-aos="zoom-in">
+            {/* Testimonials section */}
+            <section className='max-w-7xl mx-auto my-10 lg:my-20 py-10 pb-20 text-[#333333] bg-[#f7f7f7] rounded-3xl' data-aos="zoom-in">
                 {/* Section Title */}
                 <div className='text-center my-5 w-[80%] mx-auto'>
                     <h3 className='text-blue-600 font-bold text-xl'>What Our Startups Say</h3>
@@ -113,7 +114,7 @@ const page = () => {
                         <div className="text-center">
                             <h4 className="font-semibold text-lg text-[#333333]">Jane Doe</h4>
                             <p className="text-sm text-[#555555] italic mb-4">CEO of XYZ</p>
-                            <p className="text-sm text-[#555555]">"Working with Insomnia Lab has been transformative."</p>
+                            <p className="text-sm text-[#555555]">&quot;Working with Insomnia Lab has been transformative.&quot;</p>
                         </div>
                     </div>
 
@@ -131,7 +132,7 @@ const page = () => {
                         <div className="text-center">
                             <h4 className="font-semibold text-lg text-[#333333]">John Smith</h4>
                             <p className="text-sm text-[#555555] italic mb-4">Founder of ABC</p>
-                            <p className="text-sm text-[#555555]">"The guidance and connections have been invaluable."</p>
+                            <p className="text-sm text-[#555555]">&quot;The guidance and connections have been invaluable.&quot;</p>
                         </div>
                     </div>
 
@@ -149,11 +150,31 @@ const page = () => {
                         <div className="text-center">
                             <h4 className="font-semibold text-lg text-[#333333]">Emily Taylor</h4>
                             <p className="text-sm text-[#555555] italic mb-4">CTO of StartUpCo</p>
-                            <p className="text-sm text-[#555555]">"Insomnia Lab helped us scale faster than we imagined."</p>
+                            <p className="text-sm text-[#555555]">&quot;Insomnia Lab helped us scale faster than we imagined.&quot;</p>
                         </div>
                     </div>
                 </div>
+            </section>
 
+            <section className= 'my-10 lg:my-20'>
+                <div className='max-w-7xl mx-auto py-20 bg-[#f7f7f7] text-[#333333] rounded-3xl' data-aos="fade-up">
+                    {/* Section Title */}
+                    <div className='text-center mb-10 w-[80%] mx-auto lg:w-full'>
+                        <h3 className='font-bold text-3xl md:text-4xl text-[#333333]'>
+                            Ready to Transform Your Startup?
+                        </h3>
+                    </div>
+
+                    {/* CTA Button */}
+                    <div className='flex justify-center'>
+                        <a
+                            href="#contact"
+                            className="px-8 py-4 bg-blue-600 text-white text-lg rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+                        >
+                            Apply Now
+                        </a>
+                    </div>
+                </div>
 
             </section>
         </div>
