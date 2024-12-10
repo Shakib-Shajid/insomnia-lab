@@ -15,20 +15,26 @@ const page = () => {
                 <div className="relative h-full flex flex-col justify-center items-center text-center px-4 space-y-6">
                     {/* Title */}
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                        Empowering Bold Startups
+                        Empowering Your Growth
                     </h1>
 
                     {/* Subtitle */}
                     <p className="text-lg md:text-xl lg:text-2xl mb-6">
-                        We invest in fearless entrepreneurs redefining fashion and lifestyle.
+                        At Insomnia Lab, we provide the resources you need to thrive:
                     </p>
+                    <ul className='text-start'>
+                        <li>- Funding tailored to your needs.</li>
+                        <li>- Strategic guidance to navigate challenges.</li>
+                        <li>- Access to industry leaders and potential buyers.</li>
+                    </ul>
+                    <p className='text-lg md:text-xl lg:text-2xl'>Let’s grow together.</p>
 
                     {/* CTA Button */}
                     <Link href="#contact">
                         <button
                             className="bg-[#4a00e0] hover:bg-[#8e2de2] text-white px-6 py-3 rounded-md text-lg font-semibold transition-colors"
                         >
-                            Apply for Funding
+                            Contact Us
                         </button>
                     </Link>
                 </div>
@@ -156,7 +162,7 @@ const page = () => {
                 </div>
             </section>
 
-            <section className= 'my-10 lg:my-20'>
+            <section className='my-10 lg:my-20'>
                 <div className='max-w-7xl mx-auto py-20 bg-[#f7f7f7] text-[#333333] rounded-3xl' data-aos="fade-up">
                     {/* Section Title */}
                     <div className='text-center mb-10 w-[80%] mx-auto lg:w-full'>

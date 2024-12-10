@@ -21,7 +21,7 @@ const page = () => {
                         <button
                             className="bg-[#4a00e0] hover:bg-[#8e2de2] text-white px-6 py-3 rounded-md text-lg font-semibold transition-colors"
                         >
-                             Contact Us
+                             Learn More
                         </button>
                     </Link>
                 </div>
@@ -29,9 +29,9 @@ const page = () => {
 
             {/* Why Invest Section */}
             <section className="py-10 lg:py-20 text-[#333333] bg-gray-50">
-                <h2 className="text-center text-2xl md:text-4xl font-bold">Why Partner with Insomnia Lab?</h2>
+                <h2 className="text-center text-2xl md:text-4xl font-bold">Why Partner with Us?</h2>
                 <p className="text-center text-base md:text-lg mt-4 max-w-4xl mx-auto w-[80%]">
-                    Insomnia Lab is the first investment lab for digital-first brands, offering investors unique access to high-growth opportunities in fashion and lifestyle.
+                Join Insomnia Lab and invest in a portfolio of the most promising emerging brands within fashion & entertainment. Diversify your risk and multiply your returns with our carefully curated brand conglomerate. 
                 </p>
                 <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 px-4 lg:px-20">
                     {/* Icon Cards */}
