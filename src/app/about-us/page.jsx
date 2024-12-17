@@ -18,13 +18,12 @@ const page = () => {
                 <div className="relative h-[80%] flex flex-col justify-center items-center text-center px-4 space-y-6">
                     
                     {/* Text - Positioned lower and slightly smaller than the image */}
-                    <div className='md:w-[80%] mx-auto'>
+                    <div className='md:w-[80%] mx-auto space-y-9 pt-20'>
                         <h1 className="text-4xl md:text-5xl font-bold mb-4">About Insomnia Lab</h1>
-                        <p className="text-lg md:text-xl mb-6 text-center">Insomnia Lab is the first investment fund that holds a portfolio of the most promising emerging brands within the fashion & entertainment industries.
+                        <p className="text-lg md:text-xl mb-6">Insomnia Lab is the first investment fund that holds a portfolio of the most promising emerging brands within the fashion & entertainment industries.
                             We provide funding, strategic guidance, and connections with industry leaders to help startups grow and find potential buyers in the coming years. </p>
-
                     </div>
-                    <div className='pt-10'>
+                    <div className='pt-10 md:pt-20 lg:pt-40'>
                         <FaArrowDown className={`p-2 rounded-full text-4xl bounce`} />
                     </div>
                 </div>
