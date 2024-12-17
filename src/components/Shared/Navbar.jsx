@@ -1,15 +1,15 @@
 
 "use client";
 import React, { useEffect, useState } from 'react';
+import { usePathname } from "next/navigation"; // Import usePathname
 import Image from 'next/image';
 import Link from 'next/link';
-
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname(); // Get the current route
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,10 +22,12 @@ const Navbar = () => {
         };
     }, []);
 
-
     useEffect(() => {
         AOS.init();
     }, [])
+
+    const isActive = (path) => pathname === path;
+
 
     return (
         <div className={`navbar bg-transparent fixed z-50 ${isScrolled ? 'bg-white text-black' : 'bg-transparent text-white'}`}>
@@ -76,9 +78,9 @@ const Navbar = () => {
                 {navItems.map((item) => (
                     <ul className="menu menu-horizontal text-base" key={item.path}>
                         <Link
-                            className="font-semibold hover:text-black duration-300"
                             href={item.path}
-                            key={item.path}
+                            className={`font-semibold duration-300 ${isActive(item.path) ? "text-black underline underline-offset-2" : "hover:text-blue-700"
+                                }`}
                         >
                             {item.title}
                         </Link>
