@@ -16,19 +16,7 @@ const page = () => {
 
                 {/* Content container */}
                 <div className="relative h-[80%] flex flex-col justify-center items-center text-center px-4 space-y-6">
-                    {/* Logo - Larger than text */}
-                    <div className="pb-10">
-
-                        <Image
-                            src="/fimage.png"
-                            width="4000"
-                            height="1000"
-                            alt=""
-                            className="w-40 h-20 md:w-52 md:h-24 lg:w-64 lg:h-28"
-                        />
-
-                    </div>
-
+                    
                     {/* Text - Positioned lower and slightly smaller than the image */}
                     <div className='md:w-[80%] mx-auto'>
                         <h1 className="text-4xl md:text-5xl font-bold mb-4">About Insomnia Lab</h1>
@@ -87,7 +75,6 @@ const page = () => {
 
             {/* team */}
             <section className='my-10 lg:my-20'>
-
 
                 <section className="my-10 lg:my-20 bg-white">
                     <h2 className="text-center text-blue-600 font-bold text-3xl md:text-4xl">Meet The Team</h2>

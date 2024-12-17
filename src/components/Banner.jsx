@@ -64,7 +64,19 @@ const Banner = () => {
                         <Link href="#"><button className='btn bg-[#4a00e0] hover:bg-[#4a00e0] text-white border-none rounded-full btn-lg text-lg'>Explore Opportunities</button></Link>
                     </div>
                     <div className='pt-10'>
-                        <FaArrowDown className={`p-2 rounded-full text-4xl bounce ${isScrolled ? "text-black border-2 border-black" : "text-white border border-white"}`} />
+                        <Link href="#about" scroll={true} onClick={(e) => {
+                            e.preventDefault(); // Prevent the default scroll behavior
+                            const target = document.getElementById('about');
+                            if (target) {
+                                window.scrollTo({
+                                    top: target.offsetTop - 200, // Adjust -50 to control the offset from the top
+                                    behavior: 'smooth', // Smooth scroll
+                                });
+                            }
+                        }}>
+
+                            <FaArrowDown className={`p-2 rounded-full text-4xl bounce ${isScrolled ? "text-black border-2 border-black" : "text-white border border-white"}`} />
+                        </Link>
                     </div>
                 </div>
 
