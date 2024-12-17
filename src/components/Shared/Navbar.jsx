@@ -22,13 +22,7 @@ const Navbar = () => {
         };
     }, []);
 
-    const navLinks = <>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="/">Home</Link></li>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="/about-us">About</Link></li>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="/our-brands">Our Brands</Link></li>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="/for-business">For Businesses</Link></li>
-        <li className="hover:text-[#4a00e0] font-bold"><Link href="/contact">Contact</Link></li>
-    </>
+
     useEffect(() => {
         AOS.init();
     }, [])
@@ -54,7 +48,17 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${isScrolled ? 'text-black' : 'bg-white text-black'}`}>
-                        {navLinks}
+                        {navItems.map((item) => (
+                            <ul className="menu menu-horizontal text-base" key={item.path}>
+                                <Link
+                                    className="font-semibold hover:text-black duration-300"
+                                    href={item.path}
+                                    key={item.path}
+                                >
+                                    {item.title}
+                                </Link>
+                            </ul>
+                        ))}
                     </ul>
                 </div>
                 <Link href="/" className="flex text-xl mt-1 md:mt-0">
@@ -68,13 +72,45 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal text-base">
-                    {navLinks}
-                </ul>
+                {/* {navLinks} */}
+                {navItems.map((item) => (
+                    <ul className="menu menu-horizontal text-base" key={item.path}>
+                        <Link
+                            className="font-semibold hover:text-black duration-300"
+                            href={item.path}
+                            key={item.path}
+                        >
+                            {item.title}
+                        </Link>
+                    </ul>
+                ))}
             </div>
         </div>
     );
 };
+
+const navItems = [
+    {
+        title: "Home",
+        path: "/",
+    },
+    {
+        title: "About",
+        path: "/about-us",
+    },
+    {
+        title: "Our Brands",
+        path: "/our-brands",
+    },
+    {
+        title: "For Businesses",
+        path: "/for-business",
+    },
+    {
+        title: "Contact",
+        path: "/contact",
+    },
+];
 
 export default Navbar;
 
