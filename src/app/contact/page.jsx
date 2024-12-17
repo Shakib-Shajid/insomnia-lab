@@ -7,11 +7,13 @@ import { BsTwitterX } from "react-icons/bs";
 const page = () => {
     return (
         <div>
-            <section className="bg-blue-500 py-20 text-center">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-800">Get in Touch</h1>
-                <p className="mt-4 text-lg md:text-xl text-white">
-                    We&apos;d love to hear from you. Whether you&apos;re a bold entrepreneur or a visionary investor, let&apos;s talk!
-                </p>
+            <section className="bg-blue-500 text-center">
+                <div className='py-32 md:py-40 w-[80%] mx-auto'>
+                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800">Get in Touch</h1>
+                    <p className="mt-4 text-lg md:text-xl text-white">
+                        We&apos;d love to hear from you. Whether you&apos;re a bold entrepreneur or a visionary investor, let&apos;s talk!
+                    </p>
+                </div>
             </section>
             <section className="bg-white py-20">
                 <div className="max-w-4xl mx-auto px-6">

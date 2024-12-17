@@ -53,9 +53,9 @@ const Navbar = () => {
                         {navItems.map((item) => (
                             <ul className="menu menu-horizontal text-base" key={item.path}>
                                 <Link
-                                    className="font-semibold hover:text-black duration-300"
                                     href={item.path}
-                                    key={item.path}
+                                    className={`font-semibold duration-300 ${isActive(item.path) ? "text-black underline underline-offset-2" : "hover:text-blue-700"
+                                        }`}
                                 >
                                     {item.title}
                                 </Link>
