@@ -13,8 +13,8 @@ const Team = () => {
                     <div className='w-[80%] mx-auto mt-10'>
                         <p className='text-base md:text-lg text-center'>At Insomnia Lab, our team combines young energy and veteran experience to drive success.</p>
                     </div>
-                    <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-5 my-10 lg:my-16">
-                        {/* Member 1 */}
+                    <div className="w-[80%] mx-auto my-10 lg:my-16 flex flex-wrap justify-center gap-5">
+                    {/* Member 1 */}
                         <Link href="https://www.linkedin.com/" target="_blank">
                             <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="px-10 pt-10">
@@ -38,7 +38,7 @@ const Team = () => {
                             <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="px-10 pt-10">
                                     <Image
-                                        src="/150.svg"
+                                        src="/pic.png"
                                         width="4000"
                                         height="1000"
                                         alt="Fernando Abella"

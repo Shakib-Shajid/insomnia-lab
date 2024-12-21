@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Banner />
       <About />
-      <Brand />
+      {/* <Brand /> */}
       <Team />
       <Book />
     </>
