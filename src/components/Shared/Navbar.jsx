@@ -73,8 +73,7 @@ const Navbar = () => {
                     }
                 </Link>
             </div>
-            <div className="navbar-end hidden lg:flex">
-                {/* {navLinks} */}
+            {/* <div className="navbar-end hidden lg:flex">
                 {navItems.map((item) => (
                     <ul className="menu menu-horizontal text-base" key={item.path}>
                         <Link
@@ -86,7 +85,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                 ))}
-            </div>
+            </div> */}
         </div>
     );
 };
