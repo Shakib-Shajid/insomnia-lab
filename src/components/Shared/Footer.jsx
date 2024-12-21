@@ -19,7 +19,7 @@ const Footer = () => {
                         Providing reliable tech since 2023
                     </p>
                 </aside>
-                <nav>
+                {/* <nav>
                     <h6 className="footer-title">Services</h6>
                     <a className="link link-hover">Branding</a>
                     <a className="link link-hover">Design</a>
@@ -32,7 +32,7 @@ const Footer = () => {
                     <a className="link link-hover">Our Brands</a>
                     <a className="link link-hover">For Businesses</a>
                     <a className="link link-hover">Contact</a>
-                </nav>
+                </nav> */}
                 <nav>
                     <h6 className="footer-title">Social</h6>
                     <div className='flex gap-5'>
