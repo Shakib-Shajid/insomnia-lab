@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme = "light">
       <body
-        className={`${poppins.className} ${roboto.className} antialiased`}
+        className={`${poppins.className} ${roboto.className} antialiased bg-[#121212] text-[#E0E0E0]`}
       >
         <Navbar />
         {children}

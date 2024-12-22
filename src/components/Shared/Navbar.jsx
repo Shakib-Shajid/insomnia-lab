@@ -30,7 +30,7 @@ const Navbar = () => {
 
 
     return (
-        <div className={`navbar bg-transparent fixed z-50 ${isScrolled ? 'bg-white text-black' : 'bg-transparent text-white'}`}>
+        <div className={`navbar bg-transparent fixed z-50 ${isScrolled ? ' text-black' : 'bg-transparent text-white'}`}>
             <div className="navbar-start">
                 {/* <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -49,7 +49,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${isScrolled ? 'text-black' : 'bg-white text-black'}`}>
+                        className={`menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ${isScrolled ? 'text-black' : ' text-black'}`}>
                         {navItems.map((item) => (
                             <ul className="menu menu-horizontal text-base" key={item.path}>
                                 <Link

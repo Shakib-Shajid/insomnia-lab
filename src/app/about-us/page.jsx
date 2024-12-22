@@ -31,7 +31,7 @@ const page = () => {
             </section>
 
             {/* Mission section */}
-            <section className='max-w-7xl mx-auto my-10 lg:my-20 text-[#333333]' data-aos="zoom-in">
+            <section className='max-w-7xl mx-auto my-10 lg:my-20 ' data-aos="zoom-in">
                 <h3 className='font-bold text-3xl md:text-4xl text-center text-blue-600'>Our Mission</h3>
                 <div className='w-[80%] mx-auto mt-10'>
                     <p className='text-base md:text-lg max-w-5xl mx-auto text-justify'>Insomnia Lab empowers bold brands to thrive by blending innovation, strategy, and investment. We aim to shape the future of fashion and lifestyle with visionary entrepreneurs.</p>
@@ -41,7 +41,7 @@ const page = () => {
             </section>
 
             {/* value section */}
-            <section className="my-10 lg:my-20 bg-white">
+            <section className="my-10 lg:my-20 ">
                 <h2 className="text-center font-bold text-3xl md:text-4xl text-blue-600">Our Values</h2>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-16 w-[80%] md:w-[100%] lg:w-[80%] mx-auto">
                     {/* 1st */}
@@ -75,7 +75,7 @@ const page = () => {
             {/* team */}
             <section className='my-10 lg:my-20'>
 
-                <section className="my-10 lg:my-20 bg-white">
+                <section className="my-10 lg:my-20 ">
                     <h2 className="text-center text-blue-600 font-bold text-3xl md:text-4xl">Meet The Team</h2>
                     <div className='w-[80%] mx-auto mt-10'>
                         <p className='text-base md:text-lg text-center'>At Insomnia Lab, our team combines young energy and veteran experience to drive success.</p>

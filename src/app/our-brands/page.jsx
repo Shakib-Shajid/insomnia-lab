@@ -42,12 +42,12 @@ const page = () => {
 
             <section className="py-10 px-4 text-center w-[80%] mx-auto my-10 lg:my-20">
                 {/* Title */}
-                <h2 className="text-2xl md:text-4xl font-bold text-[#333333] mb-6">
+                <h2 className="text-2xl md:text-4xl font-bold  mb-6">
                     How We Help Startups
                 </h2>
 
                 {/* Description */}
-                <p className="text-base md:text-lg text-[#333333] max-w-3xl mx-auto mb-12">
+                <p className="text-base md:text-lg  max-w-3xl mx-auto mb-12">
                     At Insomnia Lab, we provide funding, strategic guidance, and access to a network of industry leaders to help startups thrive.
                 </p>
 
@@ -62,7 +62,7 @@ const page = () => {
                             height={100}
                             className="rounded-full"
                         />
-                        <h3 className="text-lg font-semibold text-[#333333]">Funding</h3>
+                        <h3 className="text-lg font-semibold ">Funding</h3>
                         <p className="text-sm text-[#555555]">We invest in bold ideas.</p>
                     </div>
 
@@ -75,7 +75,7 @@ const page = () => {
                             height={100}
                             className="rounded-full"
                         />
-                        <h3 className="text-lg font-semibold text-[#333333]">Strategy</h3>
+                        <h3 className="text-lg font-semibold ">Strategy</h3>
                         <p className="text-sm text-[#555555]">We guide startups to scalable growth.</p>
                     </div>
 
@@ -88,14 +88,14 @@ const page = () => {
                             height={100}
                             className="rounded-full"
                         />
-                        <h3 className="text-lg font-semibold text-[#333333]">Connections</h3>
+                        <h3 className="text-lg font-semibold ">Connections</h3>
                         <p className="text-sm text-[#555555]">We open doors to industry leaders.</p>
                     </div>
                 </div>
             </section>
 
             {/* Testimonials section */}
-            <section className='max-w-7xl mx-auto my-10 lg:my-20 py-10 pb-20 text-[#333333] bg-[#f7f7f7] rounded-3xl' data-aos="zoom-in">
+            <section className='max-w-7xl mx-auto my-10 lg:my-20 py-10 pb-20  bg-[#f7f7f7] rounded-3xl' data-aos="zoom-in">
                 {/* Section Title */}
                 <div className='text-center my-5 w-[80%] mx-auto'>
                     <h3 className='text-blue-600 font-bold text-xl'>What Our Startups Say</h3>
@@ -107,7 +107,7 @@ const page = () => {
                 {/* Testimonial Cards */}
                 <div className="w-[90%] mx-auto flex flex-col md:flex-row flex-wrap gap-10 lg:gap-5">
                     {/* Testimonial 1 */}
-                    <div className="card bg-white w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-left">
+                    <div className="card  w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-left">
                         <figure>
                             <Image
                                 src="/150.svg"
@@ -118,14 +118,14 @@ const page = () => {
                             />
                         </figure>
                         <div className="text-center">
-                            <h4 className="font-semibold text-lg text-[#333333]">Jane Doe</h4>
+                            <h4 className="font-semibold text-lg ">Jane Doe</h4>
                             <p className="text-sm text-[#555555] italic mb-4">CEO of XYZ</p>
                             <p className="text-sm text-[#555555]">&quot;Working with Insomnia Lab has been transformative.&quot;</p>
                         </div>
                     </div>
 
                     {/* Testimonial 2 */}
-                    <div className="card bg-white w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-up">
+                    <div className="card  w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-up">
                         <figure>
                             <Image
                                 src="/150.svg"
@@ -136,14 +136,14 @@ const page = () => {
                             />
                         </figure>
                         <div className="text-center">
-                            <h4 className="font-semibold text-lg text-[#333333]">John Smith</h4>
+                            <h4 className="font-semibold text-lg ">John Smith</h4>
                             <p className="text-sm text-[#555555] italic mb-4">Founder of ABC</p>
                             <p className="text-sm text-[#555555]">&quot;The guidance and connections have been invaluable.&quot;</p>
                         </div>
                     </div>
 
                     {/* Testimonial 3 */}
-                    <div className="card bg-white w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-right">
+                    <div className="card  w-80 mx-auto border-[#e0e0e0] hover:shadow-xl flex flex-col items-center h-full transition-transform hover:scale-105 p-6 rounded-lg" data-aos="flip-right">
                         <figure>
                             <Image
                                 src="/150.svg"
@@ -154,7 +154,7 @@ const page = () => {
                             />
                         </figure>
                         <div className="text-center">
-                            <h4 className="font-semibold text-lg text-[#333333]">Emily Taylor</h4>
+                            <h4 className="font-semibold text-lg ">Emily Taylor</h4>
                             <p className="text-sm text-[#555555] italic mb-4">CTO of StartUpCo</p>
                             <p className="text-sm text-[#555555]">&quot;Insomnia Lab helped us scale faster than we imagined.&quot;</p>
                         </div>
@@ -163,10 +163,10 @@ const page = () => {
             </section>
 
             <section className='my-10 lg:my-20'>
-                <div className='max-w-7xl mx-auto py-20 bg-[#f7f7f7] text-[#333333] rounded-3xl' data-aos="fade-up">
+                <div className='max-w-7xl mx-auto py-20 bg-[#f7f7f7]  rounded-3xl' data-aos="fade-up">
                     {/* Section Title */}
                     <div className='text-center mb-10 w-[80%] mx-auto lg:w-full'>
-                        <h3 className='font-bold text-3xl md:text-4xl text-[#333333]'>
+                        <h3 className='font-bold text-3xl md:text-4xl '>
                             Ready to Transform Your Startup?
                         </h3>
                     </div>

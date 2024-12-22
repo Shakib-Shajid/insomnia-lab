@@ -8,7 +8,7 @@ const Team = () => {
             {/* team */}
             <section className='my-10 lg:my-20'>
 
-                <section className="my-10 lg:my-20 bg-white">
+                <section className="my-10 lg:my-20 ">
                     <h2 className="text-center text-blue-600 font-bold text-2xl md:text-3xl">Who We Are</h2>
                     <div className='w-[80%] mx-auto mt-10'>
                         <p className='text-base md:text-lg text-center'>A team of 5 worldwide workaholics scaling up the fashion and entertainment industries, with no fear, from the ground up.</p>
@@ -16,7 +16,7 @@ const Team = () => {
                     <div className="w-[80%] mx-auto my-10 lg:my-16 flex flex-wrap justify-center gap-5">
                     {/* Member 1 */}
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
+                            <div className="card w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
                                         src="/150.svg"
@@ -35,7 +35,7 @@ const Team = () => {
                         </Link>
                         {/* Member 2 */}
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
+                            <div className="card w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
                                         src="/pic.png"
@@ -54,7 +54,7 @@ const Team = () => {
                         </Link>
                         {/* Member 3 */}
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
+                            <div className="card w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
                                         src="/150.svg"
@@ -73,7 +73,7 @@ const Team = () => {
                         </Link>
                         {/* Member 4 */}
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
+                            <div className="card w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
                                         src="/150.svg"
@@ -92,7 +92,7 @@ const Team = () => {
                         </Link>
                         {/* Member 5 */}
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="card bg-base-100 w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
+                            <div className="card w-80 md:w-72 lg:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
                                         src="/150.svg"

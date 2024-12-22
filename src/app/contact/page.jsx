@@ -15,7 +15,7 @@ const page = () => {
                     </p>
                 </div>
             </section>
-            <section className="bg-white py-20">
+            <section className=" py-20">
                 <div className="max-w-4xl mx-auto px-6">
                     <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800">Send Us a Message</h2>
                     <form className="mt-10 space-y-6">

@@ -28,7 +28,7 @@ const page = () => {
             </section>
 
             {/* Why Invest Section */}
-            <section className="py-10 lg:py-20 text-[#333333] bg-gray-50">
+            <section className="py-10 lg:py-20  bg-gray-50">
                 <h2 className="text-center text-2xl md:text-4xl font-bold">Why Partner with Us?</h2>
                 <p className="text-center text-base md:text-lg mt-4 max-w-4xl mx-auto w-[80%]">
                 Join Insomnia Lab and invest in a portfolio of the most promising emerging brands within fashion & entertainment. Diversify your risk and multiply your returns with our carefully curated brand conglomerate. 
@@ -42,7 +42,7 @@ const page = () => {
                     ].map(({ icon, title, desc }, idx) => (
                         <div
                             key={idx}
-                            className="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                            className="flex flex-col items-center text-center p-6  rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                         >
                             <Image width="4000" height="1000" src={icon} alt={title} className="w-20 h-20 mb-4" />
                             <h3 className="text-xl font-semibold">{title}</h3>
@@ -59,7 +59,7 @@ const page = () => {
                     {Array.from({ length: 3 }).map((_, idx) => (
                         <div
                             key={idx}
-                            className="flex flex-col bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                            className="flex flex-col  rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                         >
                             <Image width="4000" height="1000"
                                 src="/150.svg"
