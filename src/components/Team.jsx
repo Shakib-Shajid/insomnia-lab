@@ -9,7 +9,7 @@ const Team = () => {
             <section className='my-10 lg:my-20'>
 
                 <section className="my-10 lg:my-20 ">
-                    <h2 className="text-center text-blue-600 font-bold text-2xl md:text-3xl">Who We Are</h2>
+                    <h2 className="text-center text-blue-600 font-bold text-2xl md:text-3xl">Founding Gang</h2>
                     <div className='w-[80%] mx-auto mt-10'>
                         <p className='text-base md:text-lg text-center'>A team of 5 worldwide workaholics scaling up the fashion and entertainment industries, with no fear, from the ground up.</p>
                     </div>

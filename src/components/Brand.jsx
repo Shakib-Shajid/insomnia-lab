@@ -5,7 +5,7 @@ const Brand = () => {
     return (
         <div className='max-w-7xl mx-auto py-10 pb-20 rounded-3xl' data-aos="zoom-in">
             <div className='text-center my-5 w-[80%] mx-auto'>
-                <h3 className='text-blue-600 font-bold text-2xl md:text-3xl'>Our Brand</h3>
+                <h3 className='text-blue-600 font-bold text-2xl md:text-3xl'>Brand</h3>
                 <p className='text-lg max-w-5xl mx-auto py-3'>At Insomnia Lab, we provide funding, strategic guidance, and access to a network of industry leaders to help startups thrive.</p>
             </div>
 
