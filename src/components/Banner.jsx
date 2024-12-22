@@ -59,7 +59,7 @@ const Banner = () => {
 
                     {/* Text - Positioned lower and slightly smaller than the image */}
                     <div className='md:w-[80%] mx-auto'>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">INSOMNIA LAB: ONLY FOR THE RESTLESS</h1>
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">INSOMNIA: ONLY FOR THE RESTLESS</h1>
                         <p className="text-lg md:text-xl lg:text-2xl mb-6 text-center">Scaling up the fashion & entertainment industries, with no fear, from the ground up.</p>
                         {/* <Link href="#"><button className='btn bg-[#4a00e0] hover:bg-[#4a00e0] text-white border-none rounded-full btn-lg text-lg'>Explore Opportunities</button></Link> */}
                     </div>
