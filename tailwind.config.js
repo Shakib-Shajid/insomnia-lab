@@ -13,6 +13,12 @@ module.exports = {
         primaryColor: "#4a00e0",
         secondaryColor: "#8e2de2"
       },
+      screens:{
+        'custom_1080': "1080px",
+        'custom_1280': "1280px",
+        'custom_1440': "1440px",
+        'custom_1600': "1600px",
+      },
     },
   },
   plugins: [require('daisyui'),],
