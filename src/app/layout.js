@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/Shared/Navbar";
 import Footer from "@/components/Shared/Footer";
+// import Navbar from "@/components/Shared/Navbar";
 import { Poppins, Roboto } from 'next/font/google';
 
 const geistSans = localFont({
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
       <body
         className={` ${getTexta.className} antialiased bg-[#121212] text-[#E0E0E0]`}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </body>

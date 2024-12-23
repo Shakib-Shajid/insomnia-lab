@@ -32,7 +32,7 @@ const Navbar = () => {
     return (
         <div className={`navbar bg-transparent fixed z-50 ${isScrolled ? ' text-black' : 'bg-transparent text-white'}`}>
             <div className="navbar-start">
-                {/* <div className="dropdown">
+                <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const Navbar = () => {
                             </ul>
                         ))}
                     </ul>
-                </div> */}
+                </div>
                 <Link href="/" className="flex text-xl mt-1 md:mt-0">
                     {
                         !isScrolled &&
@@ -73,7 +73,7 @@ const Navbar = () => {
                     }
                 </Link>
             </div>
-            {/* <div className="navbar-end hidden lg:flex">
+            <div className="navbar-end hidden lg:flex">
                 {navItems.map((item) => (
                     <ul className="menu menu-horizontal text-base" key={item.path}>
                         <Link
@@ -85,7 +85,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                 ))}
-            </div> */}
+            </div>
         </div>
     );
 };
