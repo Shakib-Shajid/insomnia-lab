@@ -15,7 +15,7 @@ const Team = () => {
                     </div>
                     <div className="w-[80%] mx-auto my-10 lg:my-16 flex flex-wrap justify-center gap-5">
                     {/* Member 1 */}
-                        <Link href="https://www.linkedin.com/" target="_blank">
+                        <Link href="https://www.linkedin.com/in/marcopozzibcn/" target="_blank">
                             <div className="card w-80 md:w-72 lg:w-80 custom_1080:w-64 custom_1280:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
@@ -34,7 +34,7 @@ const Team = () => {
                             </div>
                         </Link>
                         {/* Member 2 */}
-                        <Link href="https://www.linkedin.com/" target="_blank">
+                        <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
                             <div className="card w-80 md:w-72 lg:w-80 custom_1080:w-64 custom_1280:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
@@ -53,7 +53,7 @@ const Team = () => {
                             </div>
                         </Link>
                         {/* Member 3 */}
-                        <Link href="https://www.linkedin.com/" target="_blank">
+                        <Link href="https://www.linkedin.com/in/alejandro-rodr%C3%ADguez-cabrera-/" target="_blank">
                             <div className="card w-80 md:w-72 lg:w-80 custom_1080:w-64 custom_1280:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
@@ -72,7 +72,7 @@ const Team = () => {
                             </div>
                         </Link>
                         {/* Member 4 */}
-                        <Link href="https://www.linkedin.com/" target="_blank">
+                        <Link href="https://www.linkedin.com/in/fernando-abella-garc%C3%ADa-b9a02aa/" target="_blank">
                             <div className="card w-80 md:w-72 lg:w-80 custom_1080:w-64 custom_1280:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image
@@ -91,7 +91,7 @@ const Team = () => {
                             </div>
                         </Link>
                         {/* Member 5 */}
-                        <Link href="https://www.linkedin.com/" target="_blank">
+                        <Link href="https://www.linkedin.com/in/pereaspinall/" target="_blank">
                             <div className="card w-80 md:w-72 lg:w-80 custom_1080:w-64 custom_1280:w-80 shadow-2xl mx-auto border-2 border-blue-600 flex flex-col">
                                 <figure className="pt-10">
                                     <Image

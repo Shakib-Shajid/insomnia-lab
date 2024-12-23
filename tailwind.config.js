@@ -14,6 +14,7 @@ module.exports = {
         secondaryColor: "#8e2de2"
       },
       screens:{
+        'custom_375': "375px",
         'custom_1080': "1080px",
         'custom_1280': "1280px",
         'custom_1440': "1440px",

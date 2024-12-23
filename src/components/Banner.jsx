@@ -75,7 +75,8 @@ const Banner = () => {
         <div>
             {/* mobile */}
             <div
-                className="hero min-h-screen block lg:hidden bg-contain bg-no-repeat -mt-[8.5rem] -mb-[8.5rem] md:-mt-0 md:-mb-0"
+            // -mt-[8.5rem] -mb-[8.5rem]
+                className="hero min-h-screen block lg:hidden bg-contain bg-no-repeat custom_375:-mt-10 custom_320:-mb-10 md:-mt-0 md:-mb-0"
                 style={{
                     backgroundImage: "url(/banner_mobile.png)",
                 }}
