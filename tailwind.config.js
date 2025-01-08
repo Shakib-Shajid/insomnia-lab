@@ -11,9 +11,11 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primaryColor: "#4a00e0",
-        secondaryColor: "#8e2de2"
+        secondaryColor: "#8e2de2",
+        neonGreen: '#39ff14',
+        electricBlue: '#7df9ff',
       },
-      screens:{
+      screens: {
         'custom_375': "375px",
         'custom_1080': "1080px",
         'custom_1280': "1280px",
