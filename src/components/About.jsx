@@ -29,18 +29,21 @@ const About = () => {
     const contentBlocks = [
         {
             icon: "/rocket.png",
-            text: "Financing the 15 most disruptive businesses within fashion & entertainment.",
+            text: "Cherry-picking the best and most disruptive companies within fashion and entertainment, preferably at their early stages",
             textColor: "text-neon-green",
+            padding: ""
         },
         {
             icon: "/gear.png",
-            text: "Structuring the operations & structures of the businesses within our group.",
+            text: "Assisting the needs and operations of the companies picked by us",
             textColor: "text-neon-green",
+            padding: "4"
         },
         {
             icon: "/tree.png",
-            text: "Making the Insomnia Lab family grow, restlessly, and reach new heights.",
+            text: "We provide funding, strategic guidance, and access to a network of industry leaders to help the right companies thrive",
             textColor: "text-neon-green",
+            padding: ""
         },
     ];
 
@@ -53,7 +56,7 @@ const About = () => {
                             key={index}
                             className="card bg-gradient-to-t from-black to-[#36454F] w-80 lg:w-96 mx-auto shadow-xl flex flex-col items-center text-center space-y-4"
                         >
-                            <figure className="mt-4 group relative">
+                            <figure className={`mt-4 group relative p-${block.padding}`}>
                                 <Image
                                     src={block.icon}
                                     alt="icon"

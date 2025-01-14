@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Banner />
       <About />
-      <Team />
-      <Brand />
-      <Investor />
+      {/* <Brand /> */}
+      {/* <Investor /> */}
       {/* <Book /> */}
+      <Team />
       <Contact />
     </>
   );
