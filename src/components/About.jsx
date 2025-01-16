@@ -28,22 +28,25 @@ const About = () => {
 
     const contentBlocks = [
         {
-            icon: "/rocket.png",
+            icon: "/images/9.webp",
             text: "Cherry-picking the best and most disruptive companies within fashion and entertainment, preferably at their early stages",
             textColor: "text-neon-green",
-            padding: ""
+            // padding: ""
+            width: "56"
         },
         {
-            icon: "/gear.png",
+            icon: "/images/7.png",
             text: "Assisting the needs and operations of the companies picked by us",
             textColor: "text-neon-green",
-            padding: "4"
+            // padding: "4"
+            width: "52"
         },
         {
-            icon: "/tree.png",
+            icon: "/images/2.jpg",
             text: "We provide funding, strategic guidance, and access to a network of industry leaders to help the right companies thrive",
             textColor: "text-neon-green",
-            padding: ""
+            // padding: ""
+            width: "56"
         },
     ];
 
@@ -56,13 +59,14 @@ const About = () => {
                             key={index}
                             className="card bg-gradient-to-t from-black to-[#36454F] w-80 lg:w-96 mx-auto shadow-xl flex flex-col items-center text-center space-y-4"
                         >
-                            <figure className={`mt-4 group relative p-${block.padding}`}>
+                            <figure className={`mt-4 group relative `}>
+                                {/* p-${block.padding} */}
                                 <Image
                                     src={block.icon}
                                     alt="icon"
-                                    width="100"
-                                    height="100"
-                                    className="w-full h-full transition duration-300 ease-in-out group-hover:opacity-70"
+                                    width="4000"
+                                    height="1000"
+                                    className={`w-${block.width} h-52 transition duration-300 ease-in-out rounded-2xl group-hover:opacity-70`}
                                 />
                             </figure>
 
@@ -85,4 +89,5 @@ const About = () => {
 };
 
 export default About;
+
 

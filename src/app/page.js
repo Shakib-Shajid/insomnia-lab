@@ -15,7 +15,7 @@ export default function Home() {
       {/* <Investor /> */}
       {/* <Book /> */}
       <Team />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }
